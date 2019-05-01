@@ -1,2 +1,2 @@
 # vkhealth
-Module that shows the health of VKontakte platphorm.
+Module that shows the health of VKontakte platform.
