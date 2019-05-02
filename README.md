@@ -1,16 +1,26 @@
 # VKhealth
+
+[![Python 3.5](https://img.shields.io/badge/Python-3.5-blue.svg)](https://python.org)
+[![VKhealth | GPL v3](https://img.shields.io/badge/VKhealth-GPL%20v3-blue.svg)](https://github.com/DaniilChizhevskii/vkhealth/blob/master/LICENSE.txt)
+
 Module that shows the health of VKontakte platform.
+
 # Requirements
-* *Python* (>= 3.5)
-* *bs4* package
-* *requests* package
-* *lxml* package
-* *json* package
+
+[![bs4 >= 0.0.1](https://img.shields.io/badge/bs4->=%200.0.1-green.svg)](https://pypi.org/project/bs4/)
+
+[![lxml >= 4.0](https://img.shields.io/badge/lxml->=4.0-green.svg)](https://pypi.org/project/lxml/)
+
+[![requests >= 2.0](https://img.shields.io/badge/requests->=2.0-green.svg)](https://pypi.org/project/requests/)
+
 # Usage
+
 * Install package from [pypi.org](https://pypi.org).
 * Import it using `import vkhealth.vkhealth as vkhealth` command.
 * Run `vkhealth.get()` command.
+
 # Output Format
+
 Output contains the JSON file that sees like that:
 
     {
@@ -36,5 +46,9 @@ Output contains the JSON file that sees like that:
       }
       ...
     }
+
 # Autor
-[Daniil Chizhevskij](mailto:daniilchizhevskij@gmail.com)
+
+[![Daniil Chizhevskij](https://img.shields.io/badge/Daniil%20Chizhevskij-VKontakte-orange.svg)](https://vk.com/nochnoj_hichnik)
+
+[![Email address](https://img.shields.io/badge/Daniil%20Chizhevskij-Email%20address-orange.svg)](mailto:daniilchizhevskij@gmail.com)
