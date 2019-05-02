@@ -1,9 +1,8 @@
 import requests
 import json
-import re
 from lxml import html
 from bs4 import BeautifulSoup
-def main():
+def get():
 	r = requests.get('https://vk.com/dev/health')
 	content = r.content
 	soup = BeautifulSoup(content, 'html.parser')
@@ -24,5 +23,3 @@ def main():
 		status = status + '"' + js[i][0] + '":{"working":"' + str(working).lower() + '","ping":' + str(js[i][2]) + ',"uptime":' + str(js[i][3]) + '},'
 	status = json.loads(status[:status.__len__()-1] + '}')
 	return status
-
-print(main())

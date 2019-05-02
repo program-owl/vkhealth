@@ -9,9 +9,9 @@ Module that shows the health of VKontakte platform.
 # Usage
 * Install package from [pypi.org](https://pypi.org).
 * Import it using `import vkhealth.vkhealth as vkhealth` command.
-* Run `vkhealth.main()` command.
+* Run `vkhealth.get()` command.
 # Output Format
-Output contaions the JSON file that sees like that:
+Output contains the JSON file that sees like that:
 
     {
 
